@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Home {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Inknut Antiqua";
+}
+.Home nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  border-bottom: 1px solid;
+}
+.Home nav .nav-brand {
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 0.4em 0.8em;
+}
+.Home nav .nav-right {
+  color: black;
+  padding: 1em 0.8em;
+  height: 100%;
+  font-size: large;
+}
+.Home nav .nav-right a {
+  margin-right: 1em;
+}
+.Home .hero {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Home .hero .hero-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.Home .hero .hero-left .hero-left-logo {
+  height: 100%;
+  width: 100%;
+  background: url("../assets/images/omm 2.png");
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Home .hero .hero-left .hero-left-logo h1 {
+  font-size: 4em;
+  font-weight: bolder;
+}
+.Home .hero .hero-left .hero-left-logo big {
+  font-size: 3em;
+  color: #65548e;
+}
+.Home .hero .hero-right {
+  height: 80%;
+  width: 60%;
+  margin: auto;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+.Home .hero .hero-right form {
+  box-shadow: 2px 2px 20px lightgrey;
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  height: 100%;
+}
+.Home .hero .hero-right form .form-choice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.2em;
+}
+.Home .hero .hero-right form .form-contents {
+  display: grid;
+  justify-content: center;
+}
+.Home .hero .hero-right form .form-contents h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: auto;
+}
+.Home .hero .hero-right form .form-contents input {
+  height: 2.4em;
+  width: 18em;
+  border: 1px solid;
+  padding: 1em;
+}
+.Home .hero .hero-right form .form-contents .submit {
+  border: 1px solid;
+  margin-bottom: 2em;
+  background-color: #65548e;
+  color: white;
+}
+.Home .footer {
+  border-top: 1px solid;
+}/*# sourceMappingURL=main.css.map */
